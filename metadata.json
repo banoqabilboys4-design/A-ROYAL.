@@ -1,0 +1,6 @@
+{
+  "name": "A.ROYAL — Luxury That Defines You",
+  "description": "Curated luxury watches and signature fragrances with real-time order processing, WhatsApp concierge, order tracking, and a secure admin management portal.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

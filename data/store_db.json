@@ -1,0 +1,398 @@
+{
+  "users": [
+    {
+      "id": "usr-admin-royal",
+      "name": "A.ROYAL Executive Administrator",
+      "email": "admin@aroyal.pk",
+      "passwordHash": "$2b$10$0diEvJoM/EqxsynpSMrNvOG/vbCuWpd6Yrgqtym2nxFg5vLxAcyaG",
+      "role": "admin",
+      "phone": "+92 300 0000000",
+      "createdAt": "2026-10-12T04:20:06.106Z"
+    }
+  ],
+  "products": [
+    {
+      "id": "royal-chronograph",
+      "name": "Royal Chronograph",
+      "category": "Watches",
+      "price": 24999,
+      "old_price": 29999,
+      "image": "https://images.unsplash.com/photo-1524805444758-089113d48a6d?auto=format&fit=crop&w=900&q=80",
+      "description": "A refined everyday chronograph with surgical 316L stainless steel, dual-subdial chronograph layout, and sapphire crystal glass.",
+      "stock": 16,
+      "featured": true,
+      "specifications": {
+        "Case": "42mm 316L Stainless Steel",
+        "Movement": "Precision Japanese Quartz Chronograph",
+        "Glass": "Scratch-Resistant Sapphire Crystal",
+        "WaterResistance": "5 ATM (50 Meters)",
+        "Strap": "Solid Steel Link Bracelet with Butterfly Clasp"
+      },
+      "createdAt": "2026-01-10T12:00:00.000Z"
+    },
+    {
+      "id": "noir-automatic",
+      "name": "Noir Automatic",
+      "category": "Watches",
+      "price": 32999,
+      "image": "https://images.unsplash.com/photo-1523170335258-f5ed11844a49?auto=format&fit=crop&w=900&q=80",
+      "description": "Minimal automatic styling designed for formal wear with an exposed exhibition sapphire caseback and obsidian matte finish.",
+      "stock": 10,
+      "featured": true,
+      "specifications": {
+        "Case": "40mm Matte Obsidian Black PVD",
+        "Movement": "Automatic Self-Winding (40hr reserve)",
+        "Glass": "Anti-Reflective Sapphire Crystal",
+        "WaterResistance": "5 ATM",
+        "Strap": "Genuine Full-Grain Italian Calfskin"
+      },
+      "createdAt": "2026-01-12T12:00:00.000Z"
+    },
+    {
+      "id": "imperial-silver",
+      "name": "Imperial Silver",
+      "category": "Watches",
+      "price": 18999,
+      "image": "https://images.unsplash.com/photo-1522312346375-d1a52e2b99b3?auto=format&fit=crop&w=900&q=80",
+      "description": "Clean silver-tone architecture featuring sunburst guilloché dial, slim bezel profile, and faceted baton markers.",
+      "stock": 25,
+      "featured": false,
+      "specifications": {
+        "Case": "39mm Polished Stainless Steel",
+        "Movement": "Slimline High-Precision Quartz",
+        "Glass": "Hardened Mineral Crystal",
+        "WaterResistance": "3 ATM",
+        "Strap": "Engineered Brushed Steel Mesh"
+      },
+      "createdAt": "2026-01-15T12:00:00.000Z"
+    },
+    {
+      "id": "monarch-rose-gold",
+      "name": "Monarch Rose Gold",
+      "category": "Watches",
+      "price": 36500,
+      "old_price": 42000,
+      "image": "https://images.unsplash.com/photo-1542496658-e33a6d0d50f6?auto=format&fit=crop&w=900&q=80",
+      "description": "Warm 18K rose gold-tone bezel accented by a textured sunburst dial, blued hands, and hand-stitched leather strap.",
+      "stock": 12,
+      "featured": true,
+      "specifications": {
+        "Case": "41mm 18K Rose Gold Ion Plated",
+        "Movement": "Miyota Automatic Calibre",
+        "Glass": "Curved Sapphire Crystal",
+        "WaterResistance": "5 ATM",
+        "Strap": "Hand-Stitched Embossed Leather"
+      },
+      "createdAt": "2026-02-01T10:00:00.000Z"
+    },
+    {
+      "id": "sovereign-diver",
+      "name": "Sovereign Diver 200M",
+      "category": "Watches",
+      "price": 28500,
+      "image": "https://images.unsplash.com/photo-1539185441755-769473a23570?auto=format&fit=crop&w=900&q=80",
+      "description": "Robust maritime timepiece with unidirectional ceramic diver bezel, Super-LumiNova indices, and 200m depth rating.",
+      "stock": 14,
+      "featured": false,
+      "specifications": {
+        "Case": "43mm Brushed 316L Steel",
+        "Movement": "High-Torque Quartz Calibre",
+        "Glass": "Double-Domed Sapphire Crystal",
+        "WaterResistance": "20 ATM (200 Meters)",
+        "Strap": "Reinforced Fluororubber Diver Band"
+      },
+      "createdAt": "2026-02-15T14:00:00.000Z"
+    },
+    {
+      "id": "royal-oud",
+      "name": "Royal Oud Extrait",
+      "category": "Perfumes",
+      "price": 7499,
+      "old_price": 8999,
+      "image": "https://images.unsplash.com/photo-1541643600914-78b084683601?auto=format&fit=crop&w=900&q=80",
+      "description": "An opulent symphony of rare Cambodian agarwood, Taif rose, warm ambergris, and smoky leather. 14+ hours sillage.",
+      "stock": 21,
+      "featured": true,
+      "specifications": {
+        "Concentration": "Extrait de Parfum (32% Oil)",
+        "TopNotes": "Saffron, Pink Pepper, Sicilian Bergamot",
+        "HeartNotes": "Taif Rose, Aged Oud Wood, Cedarwood",
+        "BaseNotes": "Ambergris, Smoke Birch, Madagascar Vanilla",
+        "Volume": "100ml / 3.4 fl. oz."
+      },
+      "createdAt": "2026-03-01T10:00:00.000Z"
+    },
+    {
+      "id": "velvet-noir",
+      "name": "Velvet Noir",
+      "category": "Perfumes",
+      "price": 6499,
+      "image": "https://images.unsplash.com/photo-1594035910387-fea47794261f?auto=format&fit=crop&w=900&q=80",
+      "description": "A magnetic nocturnal creation pairing black cardamom, Tuscan leather, violet leaf, and warm roasted tonka bean.",
+      "stock": 18,
+      "featured": true,
+      "specifications": {
+        "Concentration": "Eau de Parfum Intense (26% Oil)",
+        "TopNotes": "Italian Bergamot, Cardamom, Clary Sage",
+        "HeartNotes": "Tuscan Leather, Smoked Cedar, Violet Leaf",
+        "BaseNotes": "Haitian Vetiver, Amber, Tonka Bean",
+        "Volume": "100ml / 3.4 fl. oz."
+      },
+      "createdAt": "2026-03-06T10:00:00.000Z"
+    },
+    {
+      "id": "white-amber-crystal",
+      "name": "White Amber Crystal",
+      "category": "Perfumes",
+      "price": 6800,
+      "image": "https://images.unsplash.com/photo-1547887537-6158d64c35b3?auto=format&fit=crop&w=900&q=80",
+      "description": "Ethereal crystal-clean luxury opening with white jasmine petals, fresh neroli, solar amber, and soft velvet musk.",
+      "stock": 30,
+      "featured": false,
+      "specifications": {
+        "Concentration": "Eau de Parfum (24% Oil)",
+        "TopNotes": "White Freesia, Jasmine Petals, Sweet Neroli",
+        "HeartNotes": "Crystalline White Amber, Virginian Cedarwood",
+        "BaseNotes": "Cashmeran, Velvet White Musk, Golden Benzoin",
+        "Volume": "100ml / 3.4 fl. oz."
+      },
+      "createdAt": "2026-03-07T10:00:00.000Z"
+    },
+    {
+      "id": "royal-tobacco-bourbon",
+      "name": "Royal Tobacco & Bourbon",
+      "category": "Perfumes",
+      "price": 8900,
+      "old_price": 10200,
+      "image": "https://images.unsplash.com/photo-1592945403244-b3fbafd7f539?auto=format&fit=crop&w=900&q=80",
+      "description": "Addictive warm blend of cured tobacco blossom, aged Kentucky bourbon vanilla, roasted cacao, and golden honeycomb.",
+      "stock": 16,
+      "featured": true,
+      "specifications": {
+        "Concentration": "Extrait de Parfum (30% Oil)",
+        "TopNotes": "Tobacco Blossom, Spiced Cinnamon, Star Anise",
+        "HeartNotes": "Bourbon Vanilla Pod, Roasted Cacao, Tonka Bean",
+        "BaseNotes": "Blonde Woods, Aged Tobacco Leaf, Honey Resin",
+        "Volume": "100ml / 3.4 fl. oz."
+      },
+      "createdAt": "2026-03-08T10:00:00.000Z"
+    }
+  ],
+  "orders": [
+    {
+      "id": "ROYAL-9712",
+      "customer": {
+        "name": "Wahab Nadeem",
+        "phone": "03110706379",
+        "email": "wahab.nadeem6040@gmail.com",
+        "city": "Karachi",
+        "address": "House 14, Block 7, Gulshan-e-Iqbal",
+        "whatsapp": "03110706379"
+      },
+      "items": [
+        {
+          "id": "item-1791780022904-795k",
+          "productId": "royal-chronograph",
+          "name": "Royal Chronograph",
+          "category": "Watches",
+          "price": 24999,
+          "quantity": 1,
+          "image": "https://images.unsplash.com/photo-1524805444758-089113d48a6d?auto=format&fit=crop&w=900&q=80"
+        }
+      ],
+      "subtotal": 24999,
+      "shippingFee": 0,
+      "total": 24999,
+      "status": "Shipped",
+      "paymentMethod": "Cash on Delivery (COD)",
+      "paymentStatus": "Unpaid",
+      "emailNotificationStatus": {
+        "customer": "not_configured",
+        "admin": "not_configured",
+        "error": "SMTP credentials not configured in environment (SMTP_USER & SMTP_PASS required). Notifications logged to database as not_configured.",
+        "lastAttempt": "2026-10-12T04:40:22.905Z"
+      },
+      "phoneNotificationStatus": {
+        "status": "not_configured",
+        "recipient": "+923110706379",
+        "provider": "None (Unconfigured)",
+        "error": "SMS / WhatsApp Business API credentials not configured in environment (TWILIO_ACCOUNT_SID/TOKEN or WHATSAPP_BUSINESS_TOKEN required).",
+        "timestamp": "2026-10-12T04:40:22.911Z"
+      },
+      "createdAt": "2026-10-12T04:40:22.905Z",
+      "updatedAt": "2026-10-12T04:40:39.433Z"
+    }
+  ],
+  "settings": {
+    "storeName": "A.ROYAL",
+    "tagline": "Luxury That Defines You",
+    "phone": "+92 311 0706379",
+    "whatsappNumber": "+923110706379",
+    "adminPhone": "03110706379",
+    "adminEmail": "wahab.nadeem6040@gmail.com",
+    "currency": "PKR",
+    "freeShippingThreshold": 5000,
+    "shippingFee": 0,
+    "bankDetails": {
+      "bankName": "Meezan Bank Ltd",
+      "accountTitle": "A.ROYAL LUXURY LTD",
+      "accountNumber": "01010101010101",
+      "iban": "PK00MEZN0001010101010101"
+    },
+    "emailConfig": {
+      "enabled": false,
+      "provider": "smtp",
+      "host": "smtp.gmail.com",
+      "port": 465,
+      "user": "",
+      "pass": "",
+      "from": "A.ROYAL Luxury Concierge <orders@aroyal.pk>"
+    }
+  },
+  "chatSessions": [
+    {
+      "sessionId": "session_ks3hckh",
+      "messages": [
+        {
+          "id": "msg-1791780226308-7n7z",
+          "role": "user",
+          "content": "HOLLO I LIKE WATCH",
+          "timestamp": "2026-10-12T04:43:46.308Z"
+        },
+        {
+          "id": "msg-1791780226731-rsxe",
+          "role": "model",
+          "content": "Our flagship timepieces include the **Royal Chronograph** (PKR 24,999) and the **Noir Automatic** (PKR 32,999) with 316L surgical steel and scratch-resistant sapphire crystal glass.",
+          "timestamp": "2026-10-12T04:43:46.731Z"
+        },
+        {
+          "id": "msg-1791780235854-11l3",
+          "role": "user",
+          "content": "FULL SPEED",
+          "timestamp": "2026-10-12T04:43:55.854Z"
+        },
+        {
+          "id": "msg-1791780236136-bwqi",
+          "role": "model",
+          "content": "Assalam-o-Alaikum! Welcome to A.ROYAL. How may I assist your inquiry regarding our timepieces, extrait perfumes, or order tracking today?",
+          "timestamp": "2026-10-12T04:43:56.136Z"
+        },
+        {
+          "id": "msg-1791780239029-r9de",
+          "role": "user",
+          "content": ", LKCNJCNCV",
+          "timestamp": "2026-10-12T04:43:59.029Z"
+        },
+        {
+          "id": "msg-1791780239319-yidt",
+          "role": "model",
+          "content": "Assalam-o-Alaikum! Welcome to A.ROYAL. How may I assist your inquiry regarding our timepieces, extrait perfumes, or order tracking today?",
+          "timestamp": "2026-10-12T04:43:59.319Z"
+        },
+        {
+          "id": "msg-1791780241930-socn",
+          "role": "user",
+          "content": "\\  CJKBJ",
+          "timestamp": "2026-10-12T04:44:01.930Z"
+        },
+        {
+          "id": "msg-1791780242227-wii5",
+          "role": "model",
+          "content": "Assalam-o-Alaikum! Welcome to A.ROYAL. How may I assist your inquiry regarding our timepieces, extrait perfumes, or order tracking today?",
+          "timestamp": "2026-10-12T04:44:02.227Z"
+        },
+        {
+          "id": "msg-1791780244394-ha9h",
+          "role": "user",
+          "content": "BJKD CJL B",
+          "timestamp": "2026-10-12T04:44:04.394Z"
+        },
+        {
+          "id": "msg-1791780244679-r9uc",
+          "role": "model",
+          "content": "Assalam-o-Alaikum! Welcome to A.ROYAL. How may I assist your inquiry regarding our timepieces, extrait perfumes, or order tracking today?",
+          "timestamp": "2026-10-12T04:44:04.679Z"
+        },
+        {
+          "id": "msg-1791780246641-obmi",
+          "role": "user",
+          "content": "DLKNFEK;N",
+          "timestamp": "2026-10-12T04:44:06.641Z"
+        },
+        {
+          "id": "msg-1791780246962-3grp",
+          "role": "model",
+          "content": "Assalam-o-Alaikum! Welcome to A.ROYAL. How may I assist your inquiry regarding our timepieces, extrait perfumes, or order tracking today?",
+          "timestamp": "2026-10-12T04:44:06.962Z"
+        },
+        {
+          "id": "msg-1791780248869-a853",
+          "role": "user",
+          "content": "K NGBKN",
+          "timestamp": "2026-10-12T04:44:08.869Z"
+        },
+        {
+          "id": "msg-1791780249135-scxi",
+          "role": "model",
+          "content": "Assalam-o-Alaikum! Welcome to A.ROYAL. How may I assist your inquiry regarding our timepieces, extrait perfumes, or order tracking today?",
+          "timestamp": "2026-10-12T04:44:09.135Z"
+        }
+      ],
+      "updatedAt": "2026-10-12T04:44:09.135Z"
+    },
+    {
+      "sessionId": "test-123",
+      "messages": [
+        {
+          "id": "msg-1791780030044-j2yd",
+          "role": "user",
+          "content": "Assalam-o-Alaikum, please check my order ROYAL-9712",
+          "timestamp": "2026-10-12T04:40:30.044Z"
+        },
+        {
+          "id": "msg-1791780030481-tt2l",
+          "role": "model",
+          "content": "Assalam-o-Alaikum! We located your order **ROYAL-9712**. It is currently marked as **Pending** for delivery to Karachi. Total payable is PKR 24,999.",
+          "timestamp": "2026-10-12T04:40:30.481Z"
+        }
+      ],
+      "updatedAt": "2026-10-12T04:40:30.481Z"
+    },
+    {
+      "sessionId": "session_12exu2h",
+      "messages": [
+        {
+          "id": "msg-1791779736670-yppy",
+          "role": "user",
+          "content": "HALLO",
+          "timestamp": "2026-10-12T04:35:36.670Z"
+        },
+        {
+          "id": "msg-1791779737179-x73q",
+          "role": "model",
+          "content": "Assalam-o-Alaikum! Welcome to A.ROYAL. You can explore our handcrafted watches and signature fragrances, track an existing order (provide your ROYAL-XXXX ID), or inquire about Cash on Delivery. How may I assist you today?",
+          "timestamp": "2026-10-12T04:35:37.179Z"
+        }
+      ],
+      "updatedAt": "2026-10-12T04:35:37.179Z"
+    },
+    {
+      "sessionId": "session-1791778828116",
+      "messages": [
+        {
+          "id": "msg-1791778828116-5ffr",
+          "role": "user",
+          "content": "Assalam-o-Alaikum, please check my order status for ROYAL-7197",
+          "timestamp": "2026-10-12T04:20:28.116Z"
+        },
+        {
+          "id": "msg-1791778828577-leg6",
+          "role": "model",
+          "content": "Assalam-o-Alaikum! We located your order **ROYAL-7197**. It is currently marked as **Pending** for delivery to Lahore. Total payable is PKR 32,498. If you need urgent delivery instructions, please message our WhatsApp concierge at +923000000000.",
+          "timestamp": "2026-10-12T04:20:28.577Z"
+        }
+      ],
+      "updatedAt": "2026-10-12T04:20:28.577Z"
+    }
+  ]
+}

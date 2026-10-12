@@ -1,0 +1,48 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --gold-primary: #8b7650;
+    --gold-light: #c9ad79;
+    --gold-dark: #685536;
+    --bg-cream: #faf9f6;
+    --noir-dark: #151515;
+  }
+
+  body {
+    background-color: var(--bg-cream);
+    color: var(--noir-dark);
+    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+  }
+
+  h1, h2, h3, h4, .font-serif {
+    font-family: 'Playfair Display', Georgia, serif;
+  }
+}
+
+.gold-gradient-text {
+  background: linear-gradient(135deg, #a48243 0%, #d4b886 50%, #8e6c31 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.gold-border-glow {
+  border-color: #c9ad79;
+  box-shadow: 0 0 15px rgba(201, 173, 121, 0.18);
+}
+
+/* Custom print style for order receipts */
+@media print {
+  body * {
+    visibility: hidden;
+  }
+  #printable-receipt, #printable-receipt * {
+    visibility: visible;
+  }
+  #printable-receipt {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+  }
+}
